@@ -9,15 +9,6 @@ function Home() {
     <>
       <Navbar />
 
-      {/*  */}
-      {/* <Register /> */}
-
-      {/*  */}
-      {/* <div className='flex justify-center items-center '> */}
-      {/* <Info /> */}
-
-      {/* </div> */}
-
       <div className='flex justify-center items-center gap-4 mt-16'>
 
 
@@ -33,8 +24,8 @@ function Home() {
 
         <div className="card bg-base-100 w-96 shadow-xl">
           <div className="card-body">
-            <h2 className="card-title">Course Page!</h2>
-            <p>Click here to see the Course Page</p>
+            <h2 className="card-title">Register Page!</h2>
+            <p>Click here to see the Register Page</p>
             <div className="card-actions justify-end">
               <button className="btn bg-slate-300"><Link to="/register">Register</Link></button>
             </div>
